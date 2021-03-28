@@ -1,21 +1,14 @@
 /** @jsxImportSource theme-ui */
 
-import { SxProp } from "@theme-ui/core";
-
-interface LogoProps {
-  sx?: SxProp;
-}
-
-const Logo = ({ sx }: LogoProps) => {
+const Logo = () => {
   return (
     <svg
       width="96"
       height="25"
       xmlns="http://www.w3.org/2000/svg"
-      sx={{
+      style={{
         width: 96,
         height: 25,
-        ...sx,
       }}
     >
       <g fill-rule="evenodd">
